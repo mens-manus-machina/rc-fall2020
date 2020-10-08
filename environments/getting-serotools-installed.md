@@ -2,3 +2,4 @@
 
 Serotools appears to be command ine program that invokes Python, but is not run from within a Python shell. See for example https://serotools.readthedocs.io/en/latest/usage.html#usage
 
+1. install Python via conda ( see  ). 
