@@ -33,3 +33,9 @@ Serotools appears to be command ine program that invokes Python, but is not run 
   ```
    ~/.local/bin/serotools query -s 'Paratyphi A'
   ```
+  
+  ```
+    Input	Name	Formula	Match
+    Paratyphi A	Paratyphi A	I [1],2,12:a:[1,5]	exact
+  ```
+
