@@ -2,7 +2,7 @@
 
 Serotools appears to be command ine program that invokes Python, but is not run from within a Python shell. See for example https://serotools.readthedocs.io/en/latest/usage.html#usage
 
-1. install Python via conda.
+1. install isolated Python via conda.
 
    ```
      curl https://repo.anaconda.com/archive/Anaconda3-2020.07-MacOSX-x86_64.sh > Anaconda3-2020.07-MacOSX-x86_64.sh
@@ -10,14 +10,14 @@ Serotools appears to be command ine program that invokes Python, but is not run 
      ./Anaconda3-2020.07-MacOSX-x86_64.sh -p conda3
    ```
    
-2. 
+2.  check Python version in the new ```base``` environment
 
-  ```
-   source conda3/bin/activate
-   python -V
-  ```
+    ```
+     source conda3/bin/activate
+     python -V
+    ```
   
- 3. 
+ 3.  now create and activate an environment for serotools
  
   ```
    conda create -n serotools python=3.8
@@ -26,7 +26,7 @@ Serotools appears to be command ine program that invokes Python, but is not run 
   
   
   
- 4. 
+ 4. now install serotools from within the conda environment 
   ```
     pip install --user serotools
   ```
@@ -34,7 +34,9 @@ Serotools appears to be command ine program that invokes Python, but is not run 
    
   ![image](./image2/image.png)
   
- 5.
+  
+ 5. now run serotools. This uses an unusual location to run the command from. Ideally the ```pip install``` for serotools
+    should install 
   ```
    ~/.local/bin/serotools query -s 'Paratyphi A'
   ```
