@@ -24,6 +24,8 @@ Serotools appears to be command ine program that invokes Python, but is not run 
    conda activate serotools 
   ```
   
+  ![image](./image2/image.png)
+  
  4. 
   ```
     pip install --user serotools
