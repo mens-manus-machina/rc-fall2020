@@ -46,3 +46,11 @@ Serotools appears to be command ine program that invokes Python, but is not run 
     Paratyphi A	Paratyphi A	I [1],2,12:a:[1,5]	exact
   ```
 
+
+6. as an alternate to pip 
+   ```
+     git clone https://github.com/CFSAN-Biostatistics/serotools
+     cd serotools
+     ./setup.py build
+     ./setup.py install
+   ```
