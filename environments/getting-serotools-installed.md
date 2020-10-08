@@ -6,14 +6,15 @@ Serotools appears to be command ine program that invokes Python, but is not run 
 
    ```
      curl https://repo.anaconda.com/archive/Anaconda3-2020.07-MacOSX-x86_64.sh > Anaconda3-2020.07-MacOSX-x86_64.sh
-chmod +x Anaconda3-2020.07-MacOSX-x86_64.sh
-./Anaconda3-2020.07-MacOSX-x86_64.sh -p conda3
+     chmod +x Anaconda3-2020.07-MacOSX-x86_64.sh
+     ./Anaconda3-2020.07-MacOSX-x86_64.sh -p conda3
    ```
    
 2. 
+
   ```
-  source conda3/bin/activate
-  python -V
+   source conda3/bin/activate
+   python -V
   ```
   
  3. 
