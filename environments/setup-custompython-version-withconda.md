@@ -1,4 +1,4 @@
-# Q: How can I create a custom Python environment for a particular project?
+# Q: How can I create a custom Python environment for a particular project?  https://joss.theoj.org/papers/10.21105/joss.01356
 
 # A: Conda/minicoda is one way to do this.
 
