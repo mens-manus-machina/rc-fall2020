@@ -1,0 +1,10 @@
+# to add ipython and jupyter lab to a conda environment (for example an environment called py37)
+# setup conda and then
+
+conda activate py37
+
+conda install ipykernel jupyterlab
+python -m ipykernel install --user --name py37env --display-name "Python (py37)"
+
+# The names py37env and "Python (py37)" can be set to whatever makes sense
+
